@@ -1,0 +1,181 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.modal 
+{
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+.btn
+{
+    width: 100%;
+    text-align: center;
+    background-color: #0c786b;
+    padding-top: 25px;
+    height: 5vmax;
+    margin-top: 46px;
+}
+button
+{
+    box-shadow: 4px 3px 12px;
+    background-color: #29a79c;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    color: #fff;
+    width: 22vmax;
+    cursor: pointer;
+}
+
+
+
+
+
+/***********************************************************************/
+/*MEDIA QUERY STARTS HERE*/
+/***********************************************************************/
+
+@media screen and (min-width: 1000px) and (max-width: 1200px)
+{
+    .btn
+    {
+        width: 100%;
+        text-align: center;
+        background-color: #0c786b;
+        padding-top: 25px;
+        height: 5vmax;
+        margin-top: 46px;
+    }
+    button
+    {
+        box-shadow: 4px 3px 12px;
+        background-color: #29a79c;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        padding: 0px!important;
+        color: #fff;
+        width: 22vmax;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 999px)
+{
+    .btn
+    {
+        width: 100%;
+        text-align: center;
+        background-color: #0c786b;
+        padding-top: 20px;
+        height: 7vmax;
+        margin-top: 46px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 799px)
+{
+    .btn
+    {
+        width: 100%;
+        text-align: center;
+        background-color: #0c786b;
+        padding-top: 20px;
+        height: 7vmax;
+        margin-top: 46px;
+    }
+    button
+    {
+        box-shadow: 4px 3px 12px;
+        background-color: #29a79c;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        padding: 0px!important;
+        color: #fff;
+        width: 22vmax;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 600px)
+{
+    .btn
+    {
+        width: 100%;
+        text-align: center;
+        background-color: #0c786b;
+        padding-top: 25px;
+        height: 10vmax;
+        margin-top: 46px;
+    }
+    button
+    {
+        box-shadow: 4px 3px 12px;
+        background-color: #29a79c;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        padding: 0px!important;
+        color: #fff;
+        
+        cursor: pointer;
+    }
+}
+
+
+
+
+/***********************************************************************/
+/*MEDIA QUERY ENDS HERE*/
+/***********************************************************************/
