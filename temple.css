@@ -1,0 +1,110 @@
+.arrival
+{
+	font-size: 38px!important;
+	text-align: center;
+}
+.veggies
+{
+	font-size: 30px;
+	text-align: center;
+}
+.mini-menu
+{
+	display: inline-flex;
+	text-align: center;
+}
+.image
+{
+	width: 42%;
+}
+.mini-menu h3
+{
+	text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+.menu-item
+{
+	/*margin-left: 20px;*/
+	width: 100px;
+}
+.pro-listing
+{
+	padding: 0  10% 0 10%!important;
+}
+.pro-img
+{
+	margin-bottom: 10px;
+}
+.submenu
+{
+	text-decoration: none;
+	color: black !important;
+}
+.submenu:hover
+{
+	text-decoration: none;
+	color: black !important;
+}
+.choose-us
+{
+	background-color: #5eb485;
+	margin-top: 10px;
+}
+.best
+{
+	display: inline-flex;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.best h1
+{
+	font-weight: normal;
+	font-size: 26px;
+}
+.fe-pro
+{
+	display: inline-flex;
+	border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5% 0 3% 0;
+}
+.best-pro
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.img-grid
+{
+	padding: 0px !important;
+}
+.blog
+{
+	margin-top: 10px;
+	text-align: center;
+	display: inline-flex;
+	padding: 0 10% 0 10% !important;
+}
+.img-rounded 
+{
+    border-radius: 1.25rem!important;
+}
+.blog-head
+{
+	text-align: center;
+}
+.blog-head h1
+{
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+.blog-sec
+{
+	padding-left: 9%;
+}
+#int
+{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
